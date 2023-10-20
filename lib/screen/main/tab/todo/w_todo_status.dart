@@ -26,7 +26,7 @@ class TodoStatusWidget extends StatelessWidget {
                 context.appColors.checkBoxColor,
               ),
             ),
-          TodoStatus.incomplete => Checkbox(
+          TodoStatus.incomplete => const Checkbox(
               value: false,
               onChanged: null,
             ),
